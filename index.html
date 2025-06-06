@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Swamp Izo Car Rental</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/css/glide.core.min.css">
+</head>
+<body>
+
+  <!--Top Section-->
+  <header class="top-header">
+    <div class="top-bar">
+      <div class="left-links">
+        <a href="#">Login</a>
+        <a href="#">Sign Up</a>
+        <a class="btn-book" href="#">Book Your Car</a>
+      </div>
+    </div>
+
+    <div class="main-nav">
+      <div class="logo">
+        <h1>🚗 Swamp Izo Car Rental</h1>
+      </div>
+      <nav class="nav-links">
+        <a href="#">Car Models</a>
+        <a href="#">Pricing</a>
+        <a href="#">Payment Options</a>
+        <a href="#">Support</a>
+      </nav>
+    </div>
+  </header>
+
+  
+  <!--Car models, using placeholder image-->
+  <section class="models-grid">
+    <img src="https://placeholderimage.dev/600x400?text=Model+1" alt="Car Model 1">
+    <img src="https://placeholderimage.dev/600x400?text=Model+2" alt="Car Model 2">
+    <img src="https://placeholderimage.dev/600x400?text=Model+3" alt="Car Model 3">
+  </section>
+
+  <!--Visual Section -->
+<section class="hero-image">
+  <img src="https://yourimageurl.com/roadtrip.jpg" alt="Scenic Road" />
+</section>
+
+  
+  <!-- Caroussel -->
+  <section class="glide">
+    <div class="glide__track" data-glide-el="track">
+      <ul class="glide__slides">
+        <li class="glide__slide"><img src="http://via.placeholder.com/2550x550" alt="Slide 1"></li>
+        <li class="glide__slide"><img src="http://via.placeholder.com/2550x550" alt="Slide 2"></li>
+        <li class="glide__slide"><img src="http://via.placeholder.com/2550x550" alt="Slide 3"></li>
+      </ul>
+    </div>
+    <div class="glide__arrows" data-glide-el="controls">
+      <button class="glide__arrow glide__arrow--left" data-glide-dir="<">‹</button>
+      <button class="glide__arrow glide__arrow--right" data-glide-dir=">">›</button>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-flex">
+      <div class="footer-box">
+        <h3>About Us</h3>
+        <p>Swamp Izo Car Rental offers premium vehicles for your adventures.</p>
+      </div>
+      <div class="footer-box">
+        <h3>Services</h3>
+        <ul>
+          <li>24/7 Support</li>
+          <li>Flexible Pricing</li>
+          <li>Luxury Options</li>
+        </ul>
+      </div>
+      <div class="footer-box">
+        <h3>Follow Us</h3>
+        <p>Instagram | Facebook | Twitter</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JS -->
+  <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+  <script src="script.js"></script>
+</body>
+</html>
